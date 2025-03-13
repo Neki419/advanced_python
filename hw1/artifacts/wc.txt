@@ -1,0 +1,19 @@
+neki419:/mnt/data/ucheba/python/hw1$ wc file1.txt 
+11  7 42 file1.txt
+neki419:/mnt/data/ucheba/python/hw1$ python3 wc.py file1.txt 
+11 7 42 file1.txt
+neki419:/mnt/data/ucheba/python/hw1$ wc file2.txt 
+17 12 76 file2.txt
+neki419:/mnt/data/ucheba/python/hw1$ python3 wc.py file2.txt 
+17 12 76 file2.txt
+neki419:/mnt/data/ucheba/python/hw1$ wc file1.txt file2.txt 
+ 11   7  42 file1.txt
+ 17  12  76 file2.txt
+ 28  19 118 итого
+neki419:/mnt/data/ucheba/python/hw1$ python3 wc.py file1.txt file2.txt 
+11 7 42 file1.txt
+17 12 76 file2.txt
+28 19 118 итого
+neki419:/mnt/data/ucheba/python/hw1$ echo -e "Hello\nWorldpython3 nl.py file2.txt !" | python3 wc.py 
+2 5 37
+neki419:/mnt/data/ucheba/python/hw1$ 

@@ -1,0 +1,106 @@
+neki419:/mnt/data/ucheba/python/hw1$ tail file1.txt 
+1
+
+
+3
+qwerty qwerty
+
+
+
+
+noooooneki419:/mnt/data/ucheba/python/hw1$ python3 tail.py file1.txt 
+1
+
+
+3
+qwerty qwerty
+
+
+
+
+noooooneki419:/mnt/data/ucheba/python/hw1$ tail file2.txt 
+run     run   ,    run
+
+
+
+nooooo
+
+
+
+
+
+neki419:/mnt/data/ucheba/python/hw1$ python3 tail.py file2.txt 
+run     run   ,    run
+
+
+
+nooooo
+
+
+
+
+
+neki419:/mnt/data/ucheba/python/hw1$ tail file1.txt file2.txt 
+==> file1.txt <==
+1
+
+
+3
+qwerty qwerty
+
+
+
+
+nooooo
+==> file2.txt <==
+run     run   ,    run
+
+
+
+nooooo
+
+
+
+
+
+neki419:/mnt/data/ucheba/python/hw1$ python3 tail.py file1.txt file2.txt 
+==> file1.txt <==
+1
+
+
+3
+qwerty qwerty
+
+
+
+
+nooooo==> file2.txt <==
+run     run   ,    run
+
+
+
+nooooo
+
+
+
+
+
+
+neki419:/mnt/data/ucheba/python/hw1$ echo -e "sdf\ndf\n  \nsff\n sdfds\ndfs\nsfdsfd\nsd\n\n\n\\\\\\\nfdfsfd\nfdsfsfd\nsdfdfds\ndsffdsfd\nsfdsdfsd\nsffsddsf\n\\nssdffsdsfd\n" | python3 tail.py 
+  
+sff
+ sdfds
+dfs
+sfdsfd
+sd
+
+
+\\nfdfsfd
+fdsfsfd
+sdfdfds
+dsffdsfd
+sfdsdfsd
+sffsddsf
+
+ssdffsdsfd
+

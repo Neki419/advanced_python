@@ -1,0 +1,65 @@
+neki419:/mnt/data/ucheba/python/hw1$ nl -b a file1.txt 
+     1	hello
+     2	world
+     3	1
+     4	
+     5	
+     6	3
+     7	qwerty qwerty
+     8	
+     9	
+    10	
+    11	
+    12	nooooo
+neki419:/mnt/data/ucheba/python/hw1$ python3 nl.py file1.txt 
+    1  hello
+    2  world
+    3  1
+    4  
+    5  
+    6  3
+    7  qwerty qwerty
+    8  
+    9  
+    10  
+    11  
+    12  nooooo
+neki419:/mnt/data/ucheba/python/hw1$ nl -b a file2.txt 
+     1	hello
+     2	world
+     3	1
+     4	
+     5	sdfdsf
+     6	3
+     7	qwerty qwerty
+     8	run     run   ,    run
+     9	
+    10	
+    11	
+    12	nooooo
+    13	
+    14	
+    15	
+    16	
+    17	
+neki419:/mnt/data/ucheba/python/hw1$ python3 nl.py file2.txt 
+    1  hello
+    2  world
+    3  1
+    4  
+    5  sdfdsf
+    6  3
+    7  qwerty qwerty
+    8  run     run   ,    run
+    9  
+    10  
+    11  
+    12  nooooo
+    13  
+    14  
+    15  
+    16  
+    17  
+neki419:/mnt/data/ucheba/python/hw1$ echo -e "Hello\nWorldpython3 nl.py file2.txt !" | python3 nl.py 
+    1  Hello
+    2  Worldpython3 nl.py file2.txt !
