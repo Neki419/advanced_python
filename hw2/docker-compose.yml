@@ -1,0 +1,8 @@
+services:
+  latex_generator:
+    build:
+      context: ..
+      dockerfile: hw2/Dockerfile
+    volumes:
+      - .:/app/hw2
+    command: bash -c "poetry run python example.py && pdflatex output.tex"
