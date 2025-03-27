@@ -1,0 +1,2 @@
+hash AB is 54
+hash CD is 46
