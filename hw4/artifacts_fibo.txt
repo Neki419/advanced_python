@@ -1,0 +1,39 @@
+Synchronous 0.0573s
+Synchronous 0.0576s
+Synchronous 0.0562s
+Synchronous 0.0568s
+Synchronous 0.0572s
+Synchronous 0.0568s
+Synchronous 0.0568s
+Synchronous 0.0568s
+Synchronous 0.0567s
+Synchronous 0.0569s
+
+Synchronous total time is 0.5694s
+
+Thread 0.4139s
+Thread 0.3941s
+Thread 0.4211s
+Thread 0.4298s
+Thread 0.4120s
+Thread 0.3501s
+Thread 0.4320s
+Thread 0.4135s
+Thread 0.4082s
+Thread 0.4291s
+
+Thread total time is 0.6385s
+
+Process 0.0631s
+Process 0.0637s
+Process 0.0644s
+Process 0.0645s
+Process 0.0664s
+Process 0.0649s
+Process 0.0947s
+Process 0.0937s
+Process 0.0967s
+Process 0.0949s
+
+Process total time is 0.1063s
+
